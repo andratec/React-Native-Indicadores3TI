@@ -1,0 +1,77 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.indicator3ti"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/alexanderandrade/Indicator3TI/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/alexanderandrade/Indicator3TI/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/alexanderandrade/Indicator3TI/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/alexanderandrade/Indicator3TI/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->/Users/alexanderandrade/Indicator3TI/android/app/src/main/AndroidManifest.xml:5:5-79
+13-->/Users/alexanderandrade/Indicator3TI/android/app/src/main/AndroidManifest.xml:5:22-76
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->[com.facebook.flipper:flipper:0.125.0] /Users/alexanderandrade/.gradle/caches/transforms-3/ed7b9d9f22392f3878e85a2d56dd288c/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+14-->[com.facebook.flipper:flipper:0.125.0] /Users/alexanderandrade/.gradle/caches/transforms-3/ed7b9d9f22392f3878e85a2d56dd288c/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+15
+16    <application
+16-->/Users/alexanderandrade/Indicator3TI/android/app/src/main/AndroidManifest.xml:7:5-26:19
+17        android:name="com.indicator3ti.MainApplication"
+17-->/Users/alexanderandrade/Indicator3TI/android/app/src/main/AndroidManifest.xml:8:7-38
+18        android:allowBackup="false"
+18-->/Users/alexanderandrade/Indicator3TI/android/app/src/main/AndroidManifest.xml:12:7-34
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.6.0] /Users/alexanderandrade/.gradle/caches/transforms-3/550333f25c444dca6212665d38f327d0/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/alexanderandrade/Indicator3TI/android/app/src/main/AndroidManifest.xml:10:7-41
+22        android:label="@string/app_name"
+22-->/Users/alexanderandrade/Indicator3TI/android/app/src/main/AndroidManifest.xml:9:7-39
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/Users/alexanderandrade/Indicator3TI/android/app/src/main/AndroidManifest.xml:11:7-52
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme"
+25-->/Users/alexanderandrade/Indicator3TI/android/app/src/main/AndroidManifest.xml:13:7-38
+26        android:usesCleartextTraffic="true" >
+26-->/Users/alexanderandrade/Indicator3TI/android/app/src/debug/AndroidManifest.xml:8:9-44
+27        <activity
+27-->/Users/alexanderandrade/Indicator3TI/android/app/src/debug/AndroidManifest.xml:11:9-111
+28            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+28-->/Users/alexanderandrade/Indicator3TI/android/app/src/debug/AndroidManifest.xml:11:19-83
+29            android:exported="false" />
+29-->/Users/alexanderandrade/Indicator3TI/android/app/src/debug/AndroidManifest.xml:11:84-108
+30        <activity
+30-->/Users/alexanderandrade/Indicator3TI/android/app/src/main/AndroidManifest.xml:14:7-25:18
+31            android:name="com.indicator3ti.MainActivity"
+31-->/Users/alexanderandrade/Indicator3TI/android/app/src/main/AndroidManifest.xml:15:9-37
+32            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+32-->/Users/alexanderandrade/Indicator3TI/android/app/src/main/AndroidManifest.xml:17:9-118
+33            android:exported="true"
+33-->/Users/alexanderandrade/Indicator3TI/android/app/src/main/AndroidManifest.xml:20:9-32
+34            android:label="@string/app_name"
+34-->/Users/alexanderandrade/Indicator3TI/android/app/src/main/AndroidManifest.xml:16:9-41
+35            android:launchMode="singleTask"
+35-->/Users/alexanderandrade/Indicator3TI/android/app/src/main/AndroidManifest.xml:18:9-40
+36            android:windowSoftInputMode="adjustResize" >
+36-->/Users/alexanderandrade/Indicator3TI/android/app/src/main/AndroidManifest.xml:19:9-51
+37            <intent-filter>
+37-->/Users/alexanderandrade/Indicator3TI/android/app/src/main/AndroidManifest.xml:21:9-24:25
+38                <action android:name="android.intent.action.MAIN" />
+38-->/Users/alexanderandrade/Indicator3TI/android/app/src/main/AndroidManifest.xml:22:13-65
+38-->/Users/alexanderandrade/Indicator3TI/android/app/src/main/AndroidManifest.xml:22:21-62
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/Users/alexanderandrade/Indicator3TI/android/app/src/main/AndroidManifest.xml:23:13-73
+40-->/Users/alexanderandrade/Indicator3TI/android/app/src/main/AndroidManifest.xml:23:23-70
+41            </intent-filter>
+42        </activity>
+43    </application>
+44
+45</manifest>

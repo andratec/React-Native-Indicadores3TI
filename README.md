@@ -4,7 +4,7 @@
 Paso 1: Clona el proyecto desde el repositorio de github.
 Paso 2: Abrir en cualquier editor de código (prefiero el código VS).
 Paso 3: Instale node_modules ejecutando el comando "npm install" en la terminal.
-Paso 4: Abrie Android Studio y seleccionar la carpeta React-Native-Indicadores3TI/android para abrir el proyecto.
+Paso 4: Abrir Android Studio y seleccionar la carpeta React-Native-Indicadores3TI/android para abrir el proyecto.
 
 Nota: Android Studio comenzará a descargar automáticamente Gradle y lo construirá, que puede ver en la parte inferior de Android Studio.
 

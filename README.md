@@ -19,4 +19,7 @@ Paso 5: Después de que los archivos Gradle se descarguen y se compilen correcta
 Gracias!!
 
 
-![Screenshot_1650251242](https://user-images.githubusercontent.com/19849207/163750503-dca93d91-4937-47d7-92ff-30642b64a7a5.png)
+
+![Screenshot_1650251242](https://user-images.githubusercontent.com/19849207/163750542-e4de45f2-2d2c-446a-9be6-45801b20d63e.png)
+![Screenshot_1650251298](https://user-images.githubusercontent.com/19849207/163750537-c434950d-4ba6-4c05-b8ce-a37a43f1a409.png)
+![Screenshot_1650251327](https://user-images.githubusercontent.com/19849207/163750548-2b2a5d58-01d0-42c4-8a54-8402bb55c308.png)

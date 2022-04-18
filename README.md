@@ -4,18 +4,16 @@
  # React-Native-Indicadores3TI
  Proyecto React Native de Indicadores 3TI
 
-Step 1: Clone the project from github repo. 
-Step 2: Open it in any code editor (I prefer VS code). 
-Step 3: Install node_modules by running npm install command in terminal. 
-Step 4: Open android studio and open the react-native-app/android folder inside it. 
+Paso 1: Clona el proyecto desde el repositorio de github.
+Paso 2: Abrir en cualquier editor de código (prefiero el código VS).
+Paso 3: Instale node_modules ejecutando el comando "npm install" en la terminal.
+Paso 4: Abrie Android Studio y seleccionar la carpeta React-Native-Indicadores3TI/android para abrir el proyecto.
 
-Note: Android Studio will automatically start downloading the gradle and build it, which you can see in bottom part of android studio.
+Nota: Android Studio comenzará a descargar automáticamente Gradle y lo construirá, que puede ver en la parte inferior de Android Studio.
 
-Step 5: After gradle files are downloaded and build successfully, go back to the code editor and try to run your app again using
+Paso 5: Después de que los archivos Gradle se descarguen y se compilen correctamente, regrese al editor de código e intente ejecutar su aplicación nuevamente usando
 
-npx react-native run-android
-
-Note: If it shows the same error restart your code editor or laptop and it will work like a charm.
+"npx react-nativo run-android"
 
 ![Screenshot_1650251242](https://user-images.githubusercontent.com/19849207/163748362-b6a78172-a310-43cc-8110-d4bfa5da1756.png)
 ![Screenshot_1650251298](https://user-images.githubusercontent.com/19849207/163748409-c92a4a3a-80a8-48d4-a64d-4be3868be4ec.png)

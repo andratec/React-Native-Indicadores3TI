@@ -1,6 +1,7 @@
  # React-Native-Indicadores3TI
  Proyecto React Native de Indicadores 3TI
 
+
 Paso 1: Clona el proyecto desde el repositorio de github.
 
 Paso 2: Abrir en cualquier editor de código (prefiero el código VS).

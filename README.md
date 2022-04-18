@@ -13,7 +13,7 @@ Nota: Android Studio comenzará a descargar automáticamente Gradle y lo constru
 
 Paso 5: Después de que los archivos Gradle se descarguen y se compilen correctamente, regrese al editor de código e intente ejecutar su aplicación nuevamente usando
 
-"npx react-nativo run-android"
+"npx react-native run-android"
 
 ![Screenshot_1650251242](https://user-images.githubusercontent.com/19849207/163748362-b6a78172-a310-43cc-8110-d4bfa5da1756.png)
 ![Screenshot_1650251298](https://user-images.githubusercontent.com/19849207/163748409-c92a4a3a-80a8-48d4-a64d-4be3868be4ec.png)

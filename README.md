@@ -13,3 +13,5 @@ Step 5: After gradle files are downloaded and build successfully, go back to the
 npx react-native run-android
 
 Note: If it shows the same error restart your code editor or laptop and it will work like a charm.
+
+![Screenshot_1650251242](https://user-images.githubusercontent.com/19849207/163748362-b6a78172-a310-43cc-8110-d4bfa5da1756.png)

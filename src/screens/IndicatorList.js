@@ -5,8 +5,7 @@ import { Navigation } from 'react-native-navigation';
 import { ListItem, Avatar, Text, Icon } from '@rneui/themed';
 import styles from '../utils/styles';
 import Geolocation from '@react-native-community/geolocation';
-
-const apiUrl = "https://mindicador.cl";
+import { connection } from '../../constants/config'
 
 const IndicatorList = (props) => {
   const [json, setJson] = useState([]);
@@ -17,7 +16,7 @@ const IndicatorList = (props) => {
 
   useEffect(() => {
     const source = axios.CancelToken.source();
-    const url = `${apiUrl}/api`;
+    const url = `${connection.apiUrl}/api`;
     const fetchIndicators = async () => {
       try {
         setIsLoading(true);

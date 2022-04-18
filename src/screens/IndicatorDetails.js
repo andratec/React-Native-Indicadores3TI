@@ -5,8 +5,7 @@ import moment from 'moment';
 import { Card } from '@rneui/themed'
 import { LineChart } from 'react-native-chart-kit';
 //import styles from '../utils/styles'
-
-const apiUrl = "https://mindicador.cl";
+import { connection } from '../../constants/config'
 
 const width = Dimensions.get('window').width
 const height = 220
@@ -38,7 +37,7 @@ export default function IndicatorDetails(props)  {
 
     useEffect(() => {
         const source = axios.CancelToken.source();
-        const url = `${apiUrl}/api/${props.id}`;
+        const url = `${connection.apiUrl}/api/${props.id}`;
         const fetchData = async () => {
             try {
                 setIsLoading(true);

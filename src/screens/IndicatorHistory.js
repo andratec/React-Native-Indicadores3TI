@@ -3,8 +3,8 @@ import { ActivityIndicator, FlatList, Text, Item, View, StyleSheet, SafeAreaView
 import axios from 'axios';
 import moment from 'moment';
 import { ListItem, Avatar , Button} from '@rneui/themed'
-const apiUrl = "https://mindicador.cl";
 import styles from '../utils/styles';
+import { connection } from '../../constants/config'
 
 const IndicatorHistory = (props) =>{
   const [json, setJson] = useState([]);
@@ -14,7 +14,7 @@ const IndicatorHistory = (props) =>{
 
   useEffect(() => {
     const source = axios.CancelToken.source();
-    const url = `${apiUrl}/api/${props.id}`;
+    const url = `${connection.apiUrl}/api/${props.id}`;
     const fetchIndicators = async () => {
       try {
         setIsLoading(true);

@@ -1,0 +1,6 @@
+module Pods_Indicator3TI_Indicator3TITests {
+  umbrella header "Pods-Indicator3TI-Indicator3TITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
